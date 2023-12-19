@@ -1,19 +1,57 @@
 body {
-  background-color: aliceblue;
+  background-color: black;
+  display: flex;
+  height: 90vh;
+  
+
+
+
 }
-.PostdeInstagram[P] {
-  width: 600px;
+.PostdeInstagram-padre{
+  width: 400px;
   height: auto;
-  display: flex; /**el flex es el que divide en 2*/
   background-color: white;
-  overflow: hidden;
-  font-family: "Handlee", cursive;
-  font-family: "MuseoModerno", sans-serif;
-  font-family: "Open Sans", sans-serif;
   font-family: "Roboto", sans-serif;
+  padding: 20px;
+  margin: auto;
 }
 
 .post-header {
+
+  width: 100%;
   display: flex;
-  padding: 50px 0;
+  align-items: center;
+  justify-content: space-between;
 }
+
+.textohtml{
+  inline-size: 90%;
+  line-height: 1px;
+
+}
+.imagen {
+ width: 100%;
+}
+
+.imagen img {
+  width: 100%;
+  height: 300px;
+  
+ }
+
+
+.post-body {
+  text-align: justify;
+
+}
+
+.botones {
+
+  font-size: 30px;
+}
+
+.botones i:nth-child(4){
+float: right;
+
+}
+

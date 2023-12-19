@@ -1,0 +1,19 @@
+body {
+  background-color: aliceblue;
+}
+.PostdeInstagram[P] {
+  width: 600px;
+  height: auto;
+  display: flex; /**el flex es el que divide en 2*/
+  background-color: white;
+  overflow: hidden;
+  font-family: "Handlee", cursive;
+  font-family: "MuseoModerno", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.post-header {
+  display: flex;
+  padding: 50px 0;
+}

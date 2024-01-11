@@ -1,33 +1,28 @@
-# HTML Hello
+HTML Hello
 
-El boilerplate más básico para cualquier estudiante de 4Geeks Academy, empieza tu primer sitio web desde cero.
+El boilerplate más básico para cualquier estudiante de 4Geeks Academy. Comienza tu primer sitio web desde cero.
 
-> Tienes un video tutorial sobre [cómo usar esta plantilla para crear tu primer sitio web aquí](https://youtu.be/dfbDCMu_p-0).
+Encuentra un tutorial en video sobre cómo utilizar esta plantilla para crear tu primer sitio web aquí.
+¿Qué hacer a continuación?
 
-## ¿Qué hacer a continuación?
+Crea un archivo index.html con la estructura básica de HTML y visualiza el resultado en vivo ejecutando un servidor web con el siguiente comando:
 
-Crea un archivo `index.html` con [la estructura básica de HTML](https://4geeks.com/es/lesson/what-is-html-learn-html-es#estructura-de-pgina) y ve el resultado en vivo corriendo un servidor web utilizando el siguiente comando:
-
-```bash
+bash
+Copy code
 $ pip3 install flask && python3 server.py
-```
-
-- Puedes crear tantos archivos HTML cómo desees.
-- También puedes crear archivos CSS e importarlos en tu página web utilizando una etiqueta `<link>` ubicándola entre las etiquetas `<head></head>`, de la siguiente manera:
-
-```html
+Puedes crear tantos archivos HTML como desees.
+También puedes crear archivos CSS e importarlos en tu página web utilizando una etiqueta <link>, ubicándola entre las etiquetas <head></head>, de la siguiente manera:
+html
+Copy code
 <head>
   ...
   <link rel="stylesheet" type="text/css" href="styles.css">
   ...
 </head>
-```
+Agradecimientos
 
+Esta y otras plantillas son utilizadas para aprender a programar por parte de los alumnos de 4Geeks Academy Coding Bootcamp.
 
-## Agradecimientos
+Realizado por Alejandro Sánchez y muchos otros contribuyentes.
 
-Esta y otras plantillas son utilizadas para [aprender a programar](https://4geeksacademy.com/es/aprender-a-programar/aprender-a-programar-desde-cero) por parte de los alumnos de 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp). 
-
-Realizado por [Alejandro Sánchez](https://twitter.com/alesanchezr) y muchos otros contribuyentes. 
-
-Conoce más sobre nuestros [Cursos de Programación](https://4geeksacademy.com/es/curso-de-programacion-desde-cero/?lang=es) para convertirte en [Full Stack Developer](https://4geeksacademy.com/es/desarrollador-full-stack/desarrollador-full-stack), o nuestro [Data Science Bootcamp](https://4geeksacademy.com/es/coding-bootcamps/curso-datascience-machine-learning).
+Conoce más sobre nuestros Cursos de Programación para convertirte en Full Stack Developer o nuestro Data Science Bootcamp.
